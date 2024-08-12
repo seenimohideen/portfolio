@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!--header-->
+    <header class="header">
+        <h2 ><span>S</span>eeni</h2>
+
+        <div  class="navbar">
+            <a href="#">Home</a>
+            <a href="">About</a>
+            <a href="#">Skill</a>
+            <a href="app">Project</a>
+            <a href="#">Contact</a>
+
+        </div>
+        <div class="toogle" onclick=" shownav()">
+            <i class='bx bx-menu'></i>
+        </div>
+        
+    </header>
+    <div class="side-nav">
+        
+        <div class="side-navbar">
+            <p class="side"><a href="#">Home</a></p>
+            <p class="side"><a href="#">About</a></p>
+            <p class="side"><a href="#">Skill</a></p>
+            <p class="side"><a href="#">Project</a></p>
+            <p class="side"><a href="#">Contact</a></p>
+            <button class="side" onclick="closenav()">exit</button>
+           
+        </div>   
+
+    </div>
+    
+    <section class="home">
+        <div class="home-content" >
+            <h3 >Hello,  It's Me</h3>
+            <h1>Seeni Mohideen</h1>
+            <h3>And I'm a</h3>
+            <p>I'm a web designer with extensive experience for over 3 years.
+                <br>experience is to create and website design, frontend design, and many more
+            </p>
+        </div>
+        
+    </section>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="Picsart_24-08-11_08-24-13-296.jpg" >
+                </div>
+                <div class="col2">
+                    <h1>About Me</h1>
+                    <p>I am a web development enthusiast with a strong foundation in HTML, CSS, and JavaScript. My experience spans creating responsive, visually appealing websites and interactive web applications. I thrive on solving problems and continuously improving user experiences through clean, efficient code and modern design principles. Passionate about staying updated with the latest web technologies, I am committed to building engaging and functional web solutions.</p>
+                    <div class="skedp">
+                        <div class="skills">
+                            <h3 class="one" onclick="showskill()" > skills<i class='bx bxs-down-arrow-circle'></i> </h3>
+                        </div>
+                        <div class="skills-one">
+                            <p class="skone">UI/UX - Designing web interfaces</p>
+                            <p class="sktwo">React - Basics of React</p>
+                            <p class="skthree">Web development</p>
+                            <i class='bx bxs-up-arrow-circle' onclick="closeskill()"></i>
+                        </div>
+                        <div class="project">
+                            <h3 class="two" onclick="showpj()"   >Projects <i class='bx bxs-down-arrow-circle'></i></h3>
+                        </div>
+                        <div class="pj-one">
+                            <p class="edone">E-commerce website</p>
+                            <p class="edtwo">weather app</p>
+                            <p class="edthree">FSD Cource completed navitech</p>
+                        
+                            <i class='bx bxs-up-arrow-circle' onclick="closepj()"></i>
+                        </div>
+
+                        <div class="education">
+                            <h3 class="two" onclick="showed()"  >Education <i class='bx bxs-down-arrow-circle'></i></h3>
+                        </div>
+                        <div class="ed-one">
+                            <p class="edone">B.TECH IT 2021-2025</p>
+                            <p class="edtwo">internship at codsoft</p>
+                            <p class="edthree">FSD Cource completed navitech</p>
+                        
+                            <i class='bx bxs-up-arrow-circle' onclick="closeed()"></i>
+                        </div>
+     
+                       
+                    </div>
+                    
+                   
+                </div>
+               
+
+            </div>
+        </div>
+    </div>
+
+    <div class="app">
+       <h1 class="apptitle">Projects</h1>
+       <h3 class="apptitle">what i did</h3>
+       <div class="appimg">
+        <div class="wimg">
+            <img src="Screenshot_20240811-211740.png">
+            <div class="wlayer">
+                <h4>weather app</h4>
+                <a href="https://github.com/seenimohideen/weatheeeer"><i class='bx bxl-github'>github</i></a>
+            </div>
+
+        </div>
+        <div class="wimg">
+            <img src="download.jpeg">
+            <div class="wlayer">
+                <h4>E-commerce website</h4>
+                <a href="https://seenimohideen.github.io/notra/index.html"><i class='bx bxl-github'>github</i></a>
+                
+            </div>
+
+        </div>
+        <div class="wimg">
+            <img src="Screenshot 2024-08-12 222528.png">
+            <div class="wlayer">
+                <h4>ToDo-list</h4>
+                <a href=" https://seenimohideen.github.io/to/"><i class='bx bxl-github'>github</i></a>
+            </div>
+
+        </div>
+        
+       </div>
+        
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+</body>
+</html>
